@@ -71,20 +71,16 @@ function submitText() {
     }
 
     for (word in processedWords) {
-        const regexManStart = /^man/;
-        const regexManEnd = /man$/;
-        const familyTerms = ['father', 'mother', 'sister', 'brother', 'daughter', 'son'];
+        string = processedWords[word];
 
-        if (regexManStart.test(processedWords[word])) {
-            output.innerHTML += `- ${processedWords[word]} starts with 'man'<br>`;
-        }
-        if (regexManEnd.test(processedWords[word])) {
-            output.innerHTML += `- ${processedWords[word]} ends in 'man'<br>`;
-        }
-        if (familyTerms.includes(processedWords[word])) {
-            output.innerHTML += `- ${processedWords[word]} is a gendered family term<br>`;
-        }
+        outputWord = "";
 
+        for (const key in termReplacements) {
+            if (string === key) {
+                processedWords[word] = termReplacements[key];
+            }
+        }
+        output.innerHTML += `${processedWords[word]} `;
     }
 }
 
