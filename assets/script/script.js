@@ -77,10 +77,13 @@ function submitText() {
 
         for (const key in termReplacements) {
             if (string === key) {
-                processedWords[word] = termReplacements[key];
+                processedWords[word] = `<span class="tooltipped" data-position="top" data-tooltip="${termReplacements[key]}">${processedWords[word]}</span>`;
             }
         }
         output.innerHTML += `${processedWords[word]} `;
+        $(document).ready(function () {
+            $('.tooltipped').tooltip();
+        });
     }
 }
 
