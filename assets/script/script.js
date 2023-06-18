@@ -77,7 +77,7 @@ function submitText() {
 
         for (const key in termReplacements) {
             if (string === key) {
-                processedWords[word] = `<span class="tooltipped" data-position="top" data-tooltip="${termReplacements[key]}">${processedWords[word]}</span>`;
+                processedWords[word] = `<mark><span class="tooltipped" data-position="top" data-tooltip="'${processedWords[word]}' can be replaced by '${termReplacements[key]}'">${processedWords[word]}</span></mark>`;
             }
         }
         output.innerHTML += `${processedWords[word]} `;
