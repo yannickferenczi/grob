@@ -1,6 +1,6 @@
 # TEAM: 🌈 Our P.R.I.D.E (Partnership Renders Incredible Developer Energy) 🥳
 
-![GROB - Get Rid Of Bias Inclusivity Checker Pride Banner](assets/images/rm-grob-header.webp)
+![GROB - Get Rid Of Bias Inclusivity Checker Pride Banner](assets/img/rm-grob-header.webp)
 
 ## **_Criteria_**
 
