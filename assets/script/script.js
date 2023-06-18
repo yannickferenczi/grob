@@ -78,9 +78,11 @@ function submitText() {
 
     for (word in processedWords) {
         string = processedWords[word];
+        match = false
 
         for (const key in termReplacements) {
             if (string.toLowerCase() === key) {
+                match = true
                 if (string.charAt(0) !== key.charAt(0)) {
                     processedWords[word] = processedWords[word].charAt(0).toUpperCase() + processedWords[word].slice(1);;
                 }
@@ -88,7 +90,12 @@ function submitText() {
                 processedWords[word] = `<mark><span class="tooltipped" data-position="top" data-tooltip="'${processedWords[word]}' can be replaced by '${termReplacements[key]}'">${rawWords[word]}</span></mark>`;
             }
         }
-        output.innerHTML += `${rawWords[word]} `;
+        if (match) {
+            output.innerHTML += `${processedWords[word]} `;
+        } else {
+            output.innerHTML += `${rawWords[word]} `;
+        }
+        
         $(document).ready(function () {
             $('.tooltipped').tooltip();
         });
