@@ -76,28 +76,26 @@ Live Site : https://yannickferenczi.github.io/grob/
 
 ## **_Credits_**
 
- - the FAQ content was researched by Nate and some of it's content was generated and found using ChatGPT.
-
 We would like to give credit to the Our PRIDE team
 
 - 🙌 [Callum @callumDennisIE] ✨ Team Leader
 
-        Callum naturally took the lead of the team as he was the most hackathon experienced and also because he brought this amazing inclusivity checker idea. He has been a real help on using Git and GitHub and especially when it came to merge conflicts. He has been a great pleasure to take this challenge beside him.
+ "Callum naturally took the lead of the team as he was the most hackathon experienced and also because he brought this amazing inclusivity checker idea. He has been a real help on using Git and GitHub and especially when it came to merge conflicts. He has been a great pleasure to take this challenge beside him."
 
 - 🙌 [Diane @todiane]
 
-        Despite Diane only just starting the course and never having taken part in a Hackathon, she was very willing to contribute. Diane proved instrumental in providing suggestions and amazing images that tied together the whole project.
+ "Despite Diane only just starting the course and never having taken part in a Hackathon, she was very willing to contribute. Diane proved instrumental in providing suggestions and amazing images that tied together the whole project."
 
 - 🙌 [Dylan @Dylangroome]
 - 🙌 [Nate @Redsskull]
 - 🙌 [Yannick @yannickferenczi] ✨ Scrum Lead
 
-        "Yannick's role as our scrum leader has been nothing short of amazing. His constant presence (day and night) meant work got done, quickly and efficiently. I have no doubt that the way he managed this whole project lead to its successful completion."
+ "Yannick's role as our scrum leader has been nothing short of amazing. His constant presence (day and night) meant work got done, quickly and    efficiently. I have no doubt that the way he managed this whole project lead to its successful completion."
 
 along with following individuals, organizations, and resources that have contributed to the project or provided inspiration:
 
 - ✨ [Alissa Troiano] ✨ Hackteam Manager
-- 🌐 [External Resource 1]
+- 🌐 the FAQ content was researched by Nate and some of it's content was generated and found using ChatGPT.
 - 🌐 [External Resource 2]
 
 # PLEASE PROVIDE INFO ON EXTERNAL RESOURCES IF ANYTHING PLUS DOES ANYONE ELSE WANT TO ADD ANY THING OR AMEND ANYTHING? LET ME KNOW.
