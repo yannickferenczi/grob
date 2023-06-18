@@ -18,7 +18,9 @@
 
     <nav>
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo left">GROB</a>
+            <a href="index.html" class="brand-logo left">
+                <img class="responsive-img" src="assets/img/logo.png">
+            </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger right hide-on-med-and-up"><i class="fa-solid fa-bars"></i></a>
             <ul class="right hide-on-small-only">
                 <li class="active"><a href="index.html">Inclusivity Checker</a></li>
@@ -29,87 +31,69 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="index.html">Inclusivity Checker</a></li>
+        <li class="active"><a href="index.html">Inclusivity Checker</a></li>
         <li><a href="team.html">Our Team</a></li>
         <li><a href="#">FAQs</a></li>
     </ul>
 
+    <div class="container main-content-index">
 
-    <div class="row">
-        <div class="col s3">
+        <!--  Inclusivity Checker-->
 
-        </div>
-        <div class="col s6">
-            <img class="responsive-img" src="image.png">
-        </div>
-        <div class="col s3">
+        <div class="section orange lighten-5" id="index-banner">
 
-        </div>
+            <h3 class="header center">Inclusivity Checker</h3>
+            <div class="row">
+                <form class="col s10">
 
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Words Begining with 'man'</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Words Ending in 'man'</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Gendered Family terms</span>
+                        </label>
+                    </p>
 
-
-        <div class="container">
-
-            <!--  Inclusivity Checker-->
-
-            <div class="section orange lighten-5" id="index-banner">
-
-                <h3 class="header center">Inclusivity Checker</h3>
-                <div class="row">
-                    <form class="col s10">
-
-                        <p>
-                            <label>
-                                <input type="checkbox" />
-                                <span>Words Begining with 'man'</span>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input type="checkbox" />
-                                <span>Words Ending in 'man'</span>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input type="checkbox" />
-                                <span>Gendered Family terms</span>
-                            </label>
-                        </p>
-
-                        <div class="input-field col s12">
-                            <textarea id="text-input" class="materialize-textarea"></textarea>
-                            <label for="text-input">Enter text here...</label>
-                        </div>
-                        <div class="row">
-                            <!-- <a id="submit-button" class="waves-effect waves-light btn">Submit</a> -->
-                            <a id="submit-button" class="btn-floating btn-large pulse light green"><i
-                                    class="material-icons">done</i></a>
-                            <!-- <a id="reset-button" class="waves-effect waves-light btn">Reset</a> -->
-                            <a id="reset-button" class="btn-floating btn-large pulse light blue"><i
-                                    class="material-icons">highlight_off</i></a>
-                        </div>
-
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-
-                    </form>
-                </div>
-                <div class="row">
-                    <div class="col s12">
-                        <p id="output"></p>
+                    <div class="input-field col s12">
+                        <textarea id="text-input" class="materialize-textarea"></textarea>
+                        <label for="text-input">Enter text here...</label>
                     </div>
-                </div>
+                    <div class="row">
+                        <!-- <a id="submit-button" class="waves-effect waves-light btn">Submit</a> -->
+                        <a id="submit-button" class="btn-floating btn-large pulse light green"><i
+                                class="material-icons">done</i></a>
+                        <!-- <a id="reset-button" class="waves-effect waves-light btn">Reset</a> -->
+                        <a id="reset-button" class="btn-floating btn-large pulse light blue"><i
+                                class="material-icons">highlight_off</i></a>
+                    </div>
 
+                    <div class="progress">
+                        <div class="determinate" style="width: 70%"></div>
+                    </div>
 
+                </form>
             </div>
-        </div>
+            <div class="row">
+                <div class="col s12">
+                    <p id="output"></p>
+                </div>
+            </div>
 
+
+        </div>
     </div>
 
-
-    <div\>
         <footer class="page-footer">
             <div class="container">
                 <div class="row">

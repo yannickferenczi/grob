@@ -1,5 +1,5 @@
  .icon-block {
-    padding: 0 15px;
+     padding: 0 15px;
  }
 
  /* footer {
@@ -12,64 +12,93 @@
 } */
 
  footer {
-    display: flex;
-    min-height: 10vh;
-    text-align: center;
-    flex-direction: column;
+     display: flex;
+     min-height: 10vh;
+     text-align: center;
+     flex-direction: column;
  }
 
  footer h5,
  p {
-    margin: 0;
+     margin: 0;
+ }
+
+ body {
+     min-height: 100vh;
+ }
+
+ .main-content-index {
+    margin: 25px auto;
  }
 
  .container-fluid {
-    padding: 0 35px 25px;
+     padding: 0 35px 25px;
+ }
+
+ nav {
+     height: 80px;
+     overflow: hidden;
+     line-height: 80px;
+ }
+
+ .nav-wrapper {
+    margin-right: 7vw;
+ }
+
+ .brand-logo {
+     /* height: 5vh; */
+     height: 100%;
+ }
+
+ .responsive-img {
+    max-height: 150%;
+    max-width: 100%;
  }
 
  h1 {
-    margin: 0 0 25px;
-    padding: 20px;
+     margin: 0 0 25px;
+     padding: 20px;
+     font-size: 24px;
  }
 
  .pic-container {
-    position: relative;
-    width: 120%;
-    margin: 0 auto;
-    border: 7px solid white;
-    border-radius: 50%;
-    overflow: hidden;
-    min-width: 220px;
+     position: relative;
+     width: 120%;
+     margin: 0 auto;
+     border: 7px solid white;
+     border-radius: 50%;
+     overflow: hidden;
+     min-width: 220px;
  }
 
  .profile-picture {
-    width: 100%;
-    height: auto;
-    transform: scale(1.05);
+     width: 100%;
+     height: auto;
+     transform: scale(1.05);
  }
 
  summary::marker {
-    display: none;
+     display: none;
  }
 
  .very-front {
-    z-index: 3;
+     z-index: 3;
  }
 
  .less-front {
-    z-index: 2;
+     z-index: 2;
  }
 
  .push-left {
-    margin-right: 8%;
+     margin-right: 8%;
  }
 
  .profile {
-    display: none;
+     display: none;
  }
 
  @media only screen and (max-width: 600px) {
-    .pic-container {
-        width: 90%;
-    }
+     .pic-container {
+         width: 90%;
+     }
  }
