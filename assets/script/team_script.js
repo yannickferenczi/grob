@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let picNumber = this.getAttribute("id").substr(this.getAttribute("id").length - 1);
             console.log(picNumber);
             for (let picture of document.getElementsByClassName('pic-container')) {
-                picture.style.borderColor = "white";
+                picture.style.borderColor = "#f3dcb2";
                 picture.style.zIndex = "1";
             };
             for (let info of document.getElementsByClassName('profile-info')) {
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
             };
             let container = "container-" + picNumber;
             console.log(container);
-            document.getElementById(container).style.borderColor = "#ee6e73";
+            document.getElementById(container).style.borderColor = "#b6006f";
             document.getElementById(container).style.zIndex = "5";
         });
     }
