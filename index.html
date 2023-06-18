@@ -13,118 +13,163 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="teal lighten-1" style="background-image: url('assets/img/pexels-alexander-grey-1317534\ \(1\).jpg'); background: cover;">
-    <style>
-        .fa {
-            color: #ef6c00;
-        }
-    </style>
+<body class="teal lighten-1"
+    style="background-image: url('assets/img/pexels-alexander-grey-1317534\ \(1\).jpg'); background: cover;">
 
-    <nav class="teal lighten-5">
+    <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo black-text">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html" class="black-text">Sass</a></li>
-                <li><a href="team.html" class="black-text">Our Team</a></li>
-                <li><a href="collapsible.html" class="black-text">JavaScript</a></li>
+            <a href="index.html" class="brand-logo left">GROB</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right hide-on-med-and-up"><i class="fa-solid fa-bars"></i></a>
+            <ul class="right hide-on-small-only">
+                <li class="active"><a href="index.html">Inclusivity Checker</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="#">FAQs</a></li>
             </ul>
         </div>
     </nav>
 
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Inclusivity Checker</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="#">FAQs</a></li>
+    </ul>
 
-        <div class="row">
-            <div class="col s3">
 
-            </div>
-            <div class="col s6">
-                <img class="responsive-img" src="image.png">
-            </div>
-            <div class="col s3">
-                
-            </div>
+    <div class="row">
+        <div class="col s3">
 
-    
-        
-    <div class="container">
-            
-                <!--  Inclusivity Checker-->
-
-                <div class="section orange lighten-5" id="index-banner">
-                    
-                        <h3 class="header center">Inclusivity Checker</h3>
-                        <div class="row">
-                            <form class="col s10">
-                                
-                                    <p>
-                                        <label>
-                                            <input type="checkbox" />
-                                            <span>Words Begining with 'man'</span>
-                                        </label>
-                                    </p>
-                                    <p>
-                                        <label>
-                                            <input type="checkbox" />
-                                            <span>Words Ending in 'man'</span>
-                                        </label>
-                                    </p>
-                                    <p>
-                                        <label>
-                                            <input type="checkbox" />
-                                            <span>Gendered Family terms</span>
-                                        </label>
-                                    </p>
-
-                                    <div class="input-field col s12">
-                                        <textarea id="text-input" class="materialize-textarea"></textarea>
-                                        <label for="text-input">Enter text here...</label>
-                                    </div>
-                                    <div class="row">
-                                        <!-- <a id="submit-button" class="waves-effect waves-light btn">Submit</a> -->
-                                        <a id="submit-button" class="btn-floating btn-large pulse light green"><i
-                                                class="material-icons">done</i></a>
-                                        <!-- <a id="reset-button" class="waves-effect waves-light btn">Reset</a> -->
-                                        <a id="reset-button" class="btn-floating btn-large pulse light blue"><i
-                                                class="material-icons">highlight_off</i></a>
-                                    </div>
-
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 70%"></div>
-                                    </div>
-                                
-                            </form>
-                        </div>
-                        <div class="row">
-                            <div class="col s12">
-                                <p id="output"></p>
-                            </div>
-                        </div>
-                        
-                    
-                </div>
-            </div>
+        </div>
+        <div class="col s6">
+            <img class="responsive-img" src="image.png">
+        </div>
+        <div class="col s3">
 
         </div>
 
-    
+
+
+        <div class="container">
+
+            <!--  Inclusivity Checker-->
+
+            <div class="section orange lighten-5" id="index-banner">
+
+                <h3 class="header center">Inclusivity Checker</h3>
+                <div class="row">
+                    <form class="col s10">
+
+                        <p>
+                            <label>
+                                <input type="checkbox" />
+                                <span>Words Begining with 'man'</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" />
+                                <span>Words Ending in 'man'</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" />
+                                <span>Gendered Family terms</span>
+                            </label>
+                        </p>
+
+                        <div class="input-field col s12">
+                            <textarea id="text-input" class="materialize-textarea"></textarea>
+                            <label for="text-input">Enter text here...</label>
+                        </div>
+                        <div class="row">
+                            <!-- <a id="submit-button" class="waves-effect waves-light btn">Submit</a> -->
+                            <a id="submit-button" class="btn-floating btn-large pulse light green"><i
+                                    class="material-icons">done</i></a>
+                            <!-- <a id="reset-button" class="waves-effect waves-light btn">Reset</a> -->
+                            <a id="reset-button" class="btn-floating btn-large pulse light blue"><i
+                                    class="material-icons">highlight_off</i></a>
+                        </div>
+
+                        <div class="progress">
+                            <div class="determinate" style="width: 70%"></div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <p id="output"></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
     <div\>
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">How to use GROB?</h5>
+                        <p class="grey-text text-lighten-4">It is quite simple:</p>
+                        <p class="grey-text text-lighten-4">Insert your text in the dedicated area,</p>
+                        <p class="grey-text text-lighten-4">click the button,</p>
+                        <p class="grey-text text-lighten-4">and hover the marked words</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="white-text">You like it?</h5>
+                                <p>Spread the news on social medias...</p>
+                            </div>
+                        </div>
+                        <ul>
+                            <div class="row">
+                                <div class="col s3">
+                                    <li><a class="grey-text text-lighten-3" href="#!"><i
+                                                class="fa-brands fa-linkedin-in"></i></a></li>
+                                </div>
+                                <div class="col s3">
+                                    <li><a class="grey-text text-lighten-3" href="#!"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                </div>
+                                <div class="col s3">
+                                    <li><a class="grey-text text-lighten-3" href="#!"><i
+                                                class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                </div>
+                                <div class="col s3">
+                                    <li><a class="grey-text text-lighten-3" href="#!"><i
+                                                class="fa-brands fa-tiktok"></i></a>
+                                    </li>
+                                </div>
+                            </div>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row valign-wrapper">
+                        <div class="col center-align">
+                            © 2023 Copyright, Team Our PRIDE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <footer class="teal lighten-3">
-        
-            
-                
-                    <h5 class="black-text">Footer Content</h5>
-                    <p class="black-text">You can use rows and columns here to organize your footer content.</p>
-                
-                
-            
-        
-    </footer>
 
-
-    <!--  Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="assets/script/script.js"></script>
+        <!--  Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="assets/script/script.js"></script>
+        <script src="assets/script/team_script.js"></script>
 </body>
 
 </html>
