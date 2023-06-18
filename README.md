@@ -90,6 +90,8 @@ We would like to give credit to the Our PRIDE team
 - 🙌 [Nate @Redsskull]
 - 🙌 [Yannick @yannickferenczi] ✨ Scrum Lead
 
+        "Yannick's role as our scrum leader has been nothing short of amazing. His constant presence (day and night) meant work got done, quickly and efficiently. I have no doubt that the way he managed this whole project lead to its successful completion."
+
 along with following individuals, organizations, and resources that have contributed to the project or provided inspiration:
 
 - ✨ [Alissa Troiano] ✨ Hackteam Manager
