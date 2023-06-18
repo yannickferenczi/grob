@@ -88,7 +88,7 @@ function submitText() {
                 processedWords[word] = `<mark><span class="tooltipped" data-position="top" data-tooltip="'${processedWords[word]}' can be replaced by '${termReplacements[key]}'">${rawWords[word]}</span></mark>`;
             }
         }
-        output.innerHTML += `${processedWords[word]} `;
+        output.innerHTML += `${rawWords[word]} `;
         $(document).ready(function () {
             $('.tooltipped').tooltip();
         });
