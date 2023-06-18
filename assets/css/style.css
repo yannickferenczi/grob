@@ -1,10 +1,8 @@
-
-<<<<<<< DylanIndexBranch
  .icon-block {
     padding: 0 15px;
-}
+ }
 
-/* footer {
+ /* footer {
     position: absolute;
     align-items: center;
     text-align: center;
@@ -13,66 +11,65 @@
     right: 0;
 } */
 
-footer {
+ footer {
     display: flex;
     min-height: 10vh;
     text-align: center;
     flex-direction: column;
-}
+ }
 
-footer h5,p {
+ footer h5,
+ p {
     margin: 0;
-}
-=======
-.container-fluid {
+ }
+
+ .container-fluid {
     padding: 0 35px 25px;
-}
+ }
 
-.col {
-    padding: 15px;
-}
-
-h1 {
+ h1 {
     margin: 0 0 25px;
     padding: 20px;
-}
+ }
 
-.pic-container {
+ .pic-container {
+    position: relative;
     width: 120%;
     margin: 0 auto;
-    border: 5px solid white;
+    border: 7px solid white;
     border-radius: 50%;
     overflow: hidden;
     min-width: 220px;
-}
+ }
 
-.profile-picture {
+ .profile-picture {
     width: 100%;
     height: auto;
     transform: scale(1.05);
-}
+ }
 
-summary::marker {
+ summary::marker {
     display: none;
-}
+ }
 
-.very-front {
-    position: relative;
+ .very-front {
     z-index: 3;
-}
+ }
 
-.less-front {
-    position: relative;
+ .less-front {
     z-index: 2;
-}
+ }
 
-.push-left {
+ .push-left {
     margin-right: 8%;
-}
+ }
 
-@media only screen and (max-width: 600px) {
+ .profile {
+    display: none;
+ }
+
+ @media only screen and (max-width: 600px) {
     .pic-container {
         width: 90%;
     }
->>>>>>> main
-}
+ }
