@@ -55,6 +55,10 @@ const termReplacements = {
     "manhunt": "pursuit",
     "manhandle": "handle roughly",
     "manhole": "maintenance hole",
+    "husband": "partner",
+    "wife": "partner",
+    "boyfriend": "partner",
+    "girlfriend": "partner"
 };
 
 
