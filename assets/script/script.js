@@ -59,6 +59,9 @@ const termReplacements = {
 
 
 function submitText() {
+
+    resetOutput();
+
     input = textInput.value;
     rawWords = input.split(" ");
     processedWords = [];
@@ -87,7 +90,14 @@ function submitText() {
     }
 }
 
-button = document.getElementById('submit-button');
-button.addEventListener("click", submitText);
+function resetOutput() {
+    output.innerHTML = "";
+}
+
+submitButton = document.getElementById('submit-button');
+submitButton.addEventListener("click", submitText);
+
+resetButton = document.getElementById('reset-button');
+resetButton.addEventListener("click", resetOutput);
 
 textInput = document.getElementById('text-input');
