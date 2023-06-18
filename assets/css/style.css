@@ -18,6 +18,10 @@
      flex-direction: column;
  }
 
+ footer .brand-logo {
+    max-width: 200px;
+ }
+
  footer h5,
  p {
      margin: 0;
@@ -36,22 +40,38 @@
  }
 
  nav {
-     height: 80px;
+     height: 100px;
      overflow: hidden;
-     line-height: 80px;
+     line-height: 100px;
  }
 
- .nav-wrapper {
+ .nav-wrapper ul {
+    border: 3px solid #b6006f;
+    box-shadow: 3px 5px 5px #b6006f;
+    margin-top: 20px;
+    margin-right: 7vw;
+    height: 60px;
+    overflow: hidden;
+    line-height: 60px;
+ }
+
+ .fa-bars {
+    width: 50px;
+    border: 3px solid #b6006f;
+    box-shadow: 3px 5px 5px #b6006f;
     margin-right: 7vw;
  }
 
  .brand-logo {
-     /* height: 5vh; */
-     height: 100%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid #b6006f;
+    box-shadow: 3px 5px 5px #b6006f;
  }
 
  .responsive-img {
-    max-height: 150%;
+    max-height: 100%;
     max-width: 100%;
  }
 
