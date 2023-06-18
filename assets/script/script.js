@@ -72,7 +72,6 @@ function submitText() {
 
     for (word in rawWords) {
         text = rawWords[word];
-        // lowerText = text.toLowerCase();
         processedText = text.replace(/[\.,?!]/g, "");
         processedWords.push(processedText);
     }
@@ -80,17 +79,16 @@ function submitText() {
     for (word in processedWords) {
         string = processedWords[word];
 
-
         for (const key in termReplacements) {
             if (string.toLowerCase() === key) {
                 if (string.charAt(0) !== key.charAt(0)) {
                     processedWords[word] = processedWords[word].charAt(0).toUpperCase() + processedWords[word].slice(1);;
                 }
 
-                processedWords[word] = `<mark><span class="tooltipped" data-position="top" data-tooltip="'${processedWords[word]}' can be replaced by '${termReplacements[key]}'">${processedWords[word]}</span></mark>`;
+                processedWords[word] = `<mark><span class="tooltipped" data-position="top" data-tooltip="'${processedWords[word]}' can be replaced by '${termReplacements[key]}'">${rawWords[word]}</span></mark>`;
             }
         }
-        output.innerHTML += `${processedWords[word]} `;
+        output.innerHTML += `${rawWords[word]} `;
         $(document).ready(function () {
             $('.tooltipped').tooltip();
         });
