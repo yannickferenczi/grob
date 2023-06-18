@@ -42,10 +42,21 @@ Supports the idea that we all matter and have the right to be included.
 ## ***Tech***
 In the tech section, we provide information about the technology stack, dependencies, and any technical details related to the project. 
 
-# WHAT SHOULD I PUT HERE???
+- HTML5
+- CSS3
+- JavaScript
+- Materialize
+- TinyPNG
+- Markdown
+- Font Awesome
+- Git and GitHub
+- Codeanywhere
+- VisualStudioCode
 
 ## ***Challenges***
 Our main challenge was in deciding how to create our database of words as we wanted to avoid using derogatory or negative terms during this challenge, so we focused on subjects that began or ended with the word ‘man’ e.g. manhunt > pursuit and also family related terms e.g. brother/sister > sibling.
+
+Another big challenge, as we all are quite junior developers without real team work experience in this specific matter, has been to all work together on the same project. Participating all remotely and being all new co-workers made the challenge even bigger. But we have learnt some good practices and grew a lot with this amazing challenge.
 
 # DOES ANYONE ELSE WANT TO ADD ANY OTHER CHALLENGES OR ANY BUG ISSUES TO INCLUDE? 
 
@@ -61,6 +72,9 @@ Live Site : https://yannickferenczi.github.io/grob/
 ## ***Credits***
 We would like to give credit to the Our PRIDE team 
 - 🙌 [Callum @callumDennisIE] ✨ Team Leader
+
+        Callum naturally took the lead of the team as he was the most hackathon experienced and also because he brought this amazing inclusivity checker idea. He has been a real help on using Git and GitHub and especially when it came to merge conflicts. He has been a great pleasure to take this challenge beside him.
+
 - 🙌 [Diane @todiane]
 - 🙌 [Dylan @Dylangroome]
 - 🙌 [Nate @Redsskull]
