@@ -76,6 +76,8 @@ Live Site : https://yannickferenczi.github.io/grob/
 
 ## **_Credits_**
 
+ - the FAQ content was researched by Nate and some of it's content was generated and found using ChatGPT.
+
 We would like to give credit to the Our PRIDE team
 
 - 🙌 [Callum @callumDennisIE] ✨ Team Leader
