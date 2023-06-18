@@ -62,6 +62,8 @@ Our main challenge was in deciding how to create our database of words as we wan
 
 Another big challenge, as we all are quite junior developers without real team work experience in this specific matter, has been to all work together on the same project. Participating all remotely and being all new co-workers made the challenge even bigger. But we have learnt some good practices and grew a lot with this amazing challenge.
 
+Unfortunately Diane was unable to push changes to the website due to vscode and codeanywhere challenges so her contributions focused on content and images.
+
 # DOES ANYONE ELSE WANT TO ADD ANY OTHER CHALLENGES OR ANY BUG ISSUES TO INCLUDE?
 
 ## **_Future Updates_**
