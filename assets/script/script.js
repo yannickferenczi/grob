@@ -72,18 +72,21 @@ function submitText() {
 
     for (word in rawWords) {
         text = rawWords[word];
-        lowerText = text.toLowerCase();
-        processedText = lowerText.replace(/[\.,?!]/g, "");
+        // lowerText = text.toLowerCase();
+        processedText = text.replace(/[\.,?!]/g, "");
         processedWords.push(processedText);
     }
 
     for (word in processedWords) {
         string = processedWords[word];
 
-        outputWord = "";
 
         for (const key in termReplacements) {
-            if (string === key) {
+            if (string.toLowerCase() === key) {
+                if (string.charAt(0) !== key.charAt(0)) {
+                    processedWords[word] = processedWords[word].charAt(0).toUpperCase() + processedWords[word].slice(1);;
+                }
+
                 processedWords[word] = `<mark><span class="tooltipped" data-position="top" data-tooltip="'${processedWords[word]}' can be replaced by '${termReplacements[key]}'">${processedWords[word]}</span></mark>`;
             }
         }
