@@ -6,6 +6,9 @@
     margin: 0;
 }
 
+.bg-turquis {
+    background-color: #6EEEE9;
+}
 
  a {
      margin: 0;
@@ -42,6 +45,14 @@
 
  .main-content-index {
      margin: 25px auto;
+     box-shadow: 3px 5px 5px black;
+ }
+
+ .team-h1 {
+    margin: 0px -35px 40px;
+    background-color: #f3dcb2;
+    text-align: center;
+    font-weight: bold;
  }
 
 /* container-fluid on team.html */
@@ -96,6 +107,11 @@
      font-size: 24px;
  }
 
+ h2 {
+    font-size: 20px;
+    display: inline-block;
+ }
+
  h3 {
      margin: 0 auto 20px;
      font-size: 24px;
@@ -104,16 +120,27 @@
  .pic-container {
      position: relative;
      width: 120%;
-     margin: 0 auto;
+     margin: 15px auto;
      border: 7px solid #f3dcb2;
+     border-radius: 50%;
      overflow: hidden;
      min-width: 220px;
  }
 
  .profile-picture {
+    padding-top: 10%;
      width: 100%;
      height: auto;
-     transform: scale(1.05);
+     transform: scale(1.5);
+ }
+
+ .checker-buttons {
+    width: 40 %;
+ }
+
+ #submit-button,
+ #reset-button {
+    margin: 0 30px 10px;
  }
 
  summary::marker {
@@ -188,7 +215,7 @@
   }
 
   dd {
-    margin-bottom: 20px;
+    margin: 0 40px 20px;
     font-weight:600;
   }
 
