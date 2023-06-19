@@ -6,6 +6,9 @@
     margin: 0;
 }
 
+.bg-turquis {
+    background-color: #6EEEE9;
+}
 
  a {
      margin: 0;
@@ -42,6 +45,14 @@
 
  .main-content-index {
      margin: 25px auto;
+     box-shadow: 3px 5px 5px black;
+ }
+
+ .team-h1 {
+    margin: 0px -35px 40px;
+    background-color: #f3dcb2;
+    text-align: center;
+    font-weight: bold;
  }
 
 /* container-fluid on team.html */
@@ -188,7 +199,7 @@
   }
 
   dd {
-    margin-bottom: 20px;
+    margin: 0 40px 20px;
     font-weight:600;
   }
 
