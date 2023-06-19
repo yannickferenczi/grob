@@ -107,6 +107,11 @@
      font-size: 24px;
  }
 
+ h2 {
+    font-size: 20px;
+    display: inline-block;
+ }
+
  h3 {
      margin: 0 auto 20px;
      font-size: 24px;
@@ -115,16 +120,18 @@
  .pic-container {
      position: relative;
      width: 120%;
-     margin: 0 auto;
+     margin: 15px auto;
      border: 7px solid #f3dcb2;
+     border-radius: 50%;
      overflow: hidden;
      min-width: 220px;
  }
 
  .profile-picture {
+    padding-top: 10%;
      width: 100%;
      height: auto;
-     transform: scale(1.05);
+     transform: scale(1.5);
  }
 
  .checker-buttons {
