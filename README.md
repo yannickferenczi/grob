@@ -17,7 +17,7 @@ During our second get-together work was divided between the group with members p
 
 ## **_Intro_**
 
-G.R.O.B (Get Rid Of Bias) is an innovative online tool created to help people and organisations looking to create inclusive content by removing any unconscious bias that may be present in their literature. With a particular focus on promoting inclusivity of the LGBTQ+ community G.R.O.B provides alternative words to replace any that may be regarded as bias within your material.
+G.R.O.B (Get Rid Of Bias) is an innovative online tool created to help people and organizations looking to create inclusive content by removing any unconscious bias that may be present in their literature. With a particular focus on promoting inclusivity of the LGBTQ+ community, G.R.O.B provides alternative words to replace any that may be regarded as bias within your material.
 
 ## **_Goal_**
 
@@ -34,7 +34,7 @@ The world has changed to support the idea that everyone has the right to feel va
 **_Target Audience:_**  
 Business to consumer (free for non-commercial content)
 
-Business to business (premium version for organisations)
+Business to business (premium version for organizations)
 
 **_Benefits:_**
 
@@ -60,9 +60,9 @@ In the tech section, we provide information about the technology stack, dependen
 
 Our main challenge was in deciding how to create our database of words as we wanted to avoid using derogatory or negative terms during this challenge, so we focused on subjects that began or ended with the word ‘man’ e.g. manhunt > pursuit and also family related terms e.g. brother/sister > sibling.
 
-Another big challenge, as we all are quite junior developers without real team work experience in this specific matter, has been to all work together on the same project. Participating all remotely and being all new co-workers made the challenge even bigger. But we have learnt some good practices and grew a lot with this amazing challenge.
+Another big challenge, as we all are quite junior developers without real teamwork experience in this specific matter, has been to all work together on the same project. Participating remotely and being all new co-workers made the challenge even bigger. But we have learned some good practices and grown a lot with this amazing challenge.
 
-Unfortunately Diane was unable to push changes to the website due to vscode and codeanywhere challenges so her contributions focused on content and images.
+Unfortunately, Diane was unable to push changes to the website due to vscode and codeanywhere challenges so her contributions focused on content and images.
 
 ## **_Future Updates_**
 
@@ -80,7 +80,7 @@ We would like to give credit to the Our PRIDE team
 
 - 🙌 [Callum @callumDennisIE] ✨ Team Leader
 
- "Callum naturally took the lead of the team as he was the most hackathon experienced and also because he brought this amazing inclusivity checker idea. He has been a real help on using Git and GitHub and especially when it came to merge conflicts. He has been a great pleasure to take this challenge beside him."
+ "Callum naturally took the lead of the team as he was the most hackathon experienced and also because he brought this amazing inclusivity checker idea. He has been a real help in using Git and GitHub and especially when it came to merging conflicts. It has been a great pleasure to take this challenge beside him."
 
 - 🙌 [Diane @todiane]
 
@@ -88,18 +88,17 @@ We would like to give credit to the Our PRIDE team
 
 - 🙌 [Dylan @Dylangroome]
 
-“Dylan has been an incredible help working on the styling for the project, his utilisation of the Materialise Framework has meant that the home page could be styled to a modern and professional standard”
+“Dylan has been an incredible help working on the styling for the project, his utilization of the Materialise Framework has meant that the home page could be styled to a modern and professional standard”
 - 🙌 [Nate @Redsskull]
 
- "Nate has been a prominent and active member of the team. His experience and knowledge of coding has meant he has been able to actively support all areas of the project and his fellow team members."
+ "Nate has been a prominent and active member of the team. His experience and knowledge of coding have meant he has been able to actively support all areas of the project and his fellow team members."
 
 - 🙌 [Yannick @yannickferenczi] ✨ Scrum Lead
 
- "Yannick's role as our scrum leader has been nothing short of amazing. His constant presence (day and night) meant work got done, quickly and    efficiently. I have no doubt that the way he managed this whole project lead to its successful completion."
+ "Yannick's role as our scrum leader has been nothing short of amazing. His constant presence (day and night) meant work got done, quickly and    efficiently. I have no doubt that the way he managed this whole project led to its successful completion."
 
-along with following individuals, organizations, and resources that have contributed to the project or provided inspiration:
+along with the following individuals, organizations, and resources that have contributed to the project or provided inspiration:
 
 - ✨ [Alissa Troiano] ✨ Hackteam Manager
-- 🌐 the FAQ content was researched by Nate and some of it's content was generated and found using ChatGPT.
-- 🌐 [External Resource 2]
+- 🌐 the FAQ content was researched by Nate and some of its content was generated and found using ChatGPT.
 
