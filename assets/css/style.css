@@ -127,6 +127,15 @@
      transform: scale(1.05);
  }
 
+ .checker-buttons {
+    width: 40 %;
+ }
+
+ #submit-button,
+ #reset-button {
+    margin: 0 30px 10px;
+ }
+
  summary::marker {
      display: none;
  }
