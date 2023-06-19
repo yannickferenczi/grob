@@ -70,6 +70,10 @@ Unfortunately Diane was unable to push changes to the website due to vscode and 
 
 Future updates of G.R.O.B include expanding its reach so that other biases are included e.g., racism, sexism, ageism, and gender equality.
 
+It can also be really useful to implement a replacement function so that users could replace the biased words with their suggested equivalent just by clicking on it.
+
+In a more educational way, it could also be interesting to add some explanations for each highlighted word on why they are non-inclusive.
+
 ## **_Deployment_**
 
 GitHub Repository URL: https://github.com/yannickferenczi/grob
@@ -82,7 +86,7 @@ We would like to give credit to the Our PRIDE team
 
 - 🙌 [Callum @callumDennisIE] ✨ Team Leader
 
- "Callum naturally took the lead of the team as he was the most hackathon experienced and also because he brought this amazing inclusivity checker idea. He has been a real help on using Git and GitHub and especially when it came to merge conflicts. He has been a great pleasure to take this challenge beside him."
+ "Callum naturally took the lead of the team as he was the most hackathon experienced and also because he brought this amazing inclusivity checker idea. He has been a real help on using Git and GitHub and especially when it came to merge conflicts. It has been a great pleasure to take this challenge beside him."
 
 - 🙌 [Diane @todiane]
 
