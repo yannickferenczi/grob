@@ -64,8 +64,6 @@ Another big challenge, as we all are quite junior developers without real team w
 
 Unfortunately Diane was unable to push changes to the website due to vscode and codeanywhere challenges so her contributions focused on content and images.
 
-# DOES ANYONE ELSE WANT TO ADD ANY OTHER CHALLENGES OR ANY BUG ISSUES TO INCLUDE?
-
 ## **_Future Updates_**
 
 Future updates of G.R.O.B include expanding its reach so that other biases are included e.g., racism, sexism, ageism, and gender equality.
@@ -90,6 +88,9 @@ We would like to give credit to the Our PRIDE team
 
 - 🙌 [Dylan @Dylangroome]
 - 🙌 [Nate @Redsskull]
+
+ ""Nate has been a prominent and active member of the team. His experience and knowledge of coding has meant he has been able to actively support all areas of the project and his fellow team members."
+
 - 🙌 [Yannick @yannickferenczi] ✨ Scrum Lead
 
  "Yannick's role as our scrum leader has been nothing short of amazing. His constant presence (day and night) meant work got done, quickly and    efficiently. I have no doubt that the way he managed this whole project lead to its successful completion."
@@ -100,4 +101,3 @@ along with following individuals, organizations, and resources that have contrib
 - 🌐 the FAQ content was researched by Nate and some of it's content was generated and found using ChatGPT.
 - 🌐 [External Resource 2]
 
-# PLEASE PROVIDE INFO ON EXTERNAL RESOURCES IF ANYTHING PLUS DOES ANYONE ELSE WANT TO ADD ANY THING OR AMEND ANYTHING? LET ME KNOW.
