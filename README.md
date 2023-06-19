@@ -87,9 +87,11 @@ We would like to give credit to the Our PRIDE team
  "Despite Diane only just starting the course and never having taken part in a Hackathon, she was very willing to contribute. Diane proved instrumental in providing suggestions and amazing images that tied together the whole project."
 
 - 🙌 [Dylan @Dylangroome]
+
+“Dylan has been an incredible help working on the styling for the project, his utilisation of the Materialise Framework has meant that the home page could be styled to a modern and professional standard”
 - 🙌 [Nate @Redsskull]
 
- ""Nate has been a prominent and active member of the team. His experience and knowledge of coding has meant he has been able to actively support all areas of the project and his fellow team members."
+ "Nate has been a prominent and active member of the team. His experience and knowledge of coding has meant he has been able to actively support all areas of the project and his fellow team members."
 
 - 🙌 [Yannick @yannickferenczi] ✨ Scrum Lead
 
